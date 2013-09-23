@@ -25,7 +25,9 @@ Route::group(array('prefix' => 'admin', 'before' => 'auth.admin'), function()
 	    Route::resource('dashboard',   'App\Controllers\Admin\DashboardController');
 	    Route::resource('articles',    'App\Controllers\Admin\ArticlesController');
 	    Route::resource('pages',       'App\Controllers\Admin\PagesController');
-	});// Confide routes
+	});
+
+// Confide routes
 Route::get( 'user/create',                 'UserController@create');
 Route::post('user',                        'UserController@store');
 Route::get( 'user/login',                  'UserController@login');

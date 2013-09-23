@@ -115,6 +115,8 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Zizaco\Confide\ConfideServiceProvider',
 		'Zizaco\Entrust\EntrustServiceProvider',
+		'Robbo\Presenter\PresenterServiceProvider', // Presenter
+
 	),
 
 	/*
@@ -181,6 +183,8 @@ return array(
 		'View'            => 'Illuminate\Support\Facades\View',
 	    'Confide'    	  => 'Zizaco\Confide\ConfideFacade',
 		'Entrust'    	  => 'Zizaco\Entrust\EntrustFacade',
+        'Presenter'       => 'Robbo\Presenter\Presenter',
+        'Presentable'     => 'Robbo\Presenter\PresentableInterface',
 	),
 
 );

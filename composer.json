@@ -7,7 +7,8 @@
 		"zizaco/confide": "1.0.x",
 		"zizaco/entrust": "dev-master",
         "dflydev/markdown": "v1.0.2",
-        "imagine/Imagine": "v0.4.1"
+        "imagine/Imagine": "v0.4.1",
+		"robclancy/presenter": "1.0.*"
     },
 	"autoload": {
 		"classmap": [
